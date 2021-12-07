@@ -1186,6 +1186,15 @@
   filter: blur(500px);
 }
 
+.parent-wrap {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 @media screen and (min-width: 1280px) {
   ._16px._50-opa._100._356 {
     min-width: 356px;
@@ -1211,6 +1220,10 @@
   .graph-wrap {
     max-width: 1280px;
     min-width: 1280px;
+  }
+
+  .parent-wrap {
+    position: relative;
   }
 }
 
