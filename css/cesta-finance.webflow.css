@@ -224,8 +224,8 @@
   grid-auto-columns: 1fr;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
-  -ms-grid-columns: 310px 180px;
-  grid-template-columns: 310px 180px;
+  -ms-grid-columns: 310px 180px 180px;
+  grid-template-columns: 310px 180px 180px;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
@@ -602,7 +602,7 @@
 }
 
 .footer-1.hide {
-  display: none;
+  display: block;
 }
 
 .logo {
