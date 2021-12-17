@@ -97,10 +97,16 @@
 }
 
 .orange-button._31 {
+  min-width: 159px;
   margin-left: 31px;
   background-image: -webkit-gradient(linear, left top, right top, from(#ce262c), color-stop(26%, #d63a39), color-stop(79%, #e86655), to(#ef7760));
   background-image: linear-gradient(90deg, #ce262c, #d63a39 26%, #e86655 79%, #ef7760);
+  font-size: 16px;
   cursor: not-allowed;
+}
+
+.orange-button._50-down {
+  margin-bottom: 47px;
 }
 
 .nav-menu {
@@ -256,7 +262,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  max-width: 580px;
+  max-width: 603px;
   margin-right: auto;
   margin-left: 0px;
   -webkit-box-orient: vertical;
@@ -286,6 +292,7 @@
 .h1.bh {
   position: relative;
   left: -12px;
+  width: 102%;
   padding-left: 12px;
   background-image: -webkit-gradient(linear, left top, right top, from(#ce262c), color-stop(30%, #d63a39), color-stop(70%, #e86655), to(#ef7760));
   background-image: linear-gradient(90deg, #ce262c, #d63a39 30%, #e86655 70%, #ef7760);
@@ -324,7 +331,7 @@
 
 ._16px._25-20 {
   margin-top: 20px;
-  margin-bottom: 25px;
+  margin-bottom: 67px;
   text-align: left;
 }
 
@@ -1196,6 +1203,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .h1.bh {
+    padding-left: 12px;
+  }
+
   ._16px._50-opa._100._356 {
     min-width: 356px;
   }
@@ -1519,6 +1530,10 @@
     margin-left: 0px;
   }
 
+  .orange-button._50-down {
+    margin-bottom: 30px;
+  }
+
   .section.one {
     padding-right: 16px;
     padding-left: 16px;
@@ -1552,6 +1567,7 @@
 
   .h1.bh {
     position: static;
+    width: 100%;
   }
 
   .text-span {
@@ -1566,6 +1582,10 @@
     -ms-flex-align: center;
     align-items: center;
     line-height: 55px;
+  }
+
+  ._16px._25-20 {
+    margin-bottom: 20px;
   }
 
   .h2._50bit {
