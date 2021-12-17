@@ -100,7 +100,7 @@
   margin-left: 31px;
   background-image: -webkit-gradient(linear, left top, right top, from(#ce262c), color-stop(26%, #d63a39), color-stop(79%, #e86655), to(#ef7760));
   background-image: linear-gradient(90deg, #ce262c, #d63a39 26%, #e86655 79%, #ef7760);
-  cursor: not-allowed;
+  cursor: pointer;
 }
 
 .nav-menu {
