@@ -54,6 +54,10 @@
   display: none;
 }
 
+.nav-link.hide.no {
+  display: block;
+}
+
 .nav-container {
   display: -webkit-box;
   display: -webkit-flex;
